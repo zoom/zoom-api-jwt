@@ -12,6 +12,9 @@ You can install using git clone
 
 ### Quick Start
 
+> Install the dependent node modules
+``` npm install ```
+
 > In the config.js file input your client API Key & Secret credentials
 ``` export NODE_NEV=[environment name] (e.g. export NODE_NEV=production) ```
 
