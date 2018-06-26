@@ -21,10 +21,10 @@ You can install using git clone
 		APIKey : 'Your environment API Key',
 		APISecret : 'Your environment API Secret'
 	}
-};
+    };
 ```
 > Set your environment varaibles
 ``` export NODE_NEV=[environment name] (e.g. export NODE_NEV=production) ```
 
-> Start the node app
+> Start the node app using the below command.
 ``` node.index.js ```
