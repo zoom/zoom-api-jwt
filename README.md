@@ -1,6 +1,6 @@
 # Zoom API using JWT
 
-> This is a sample app that uses JWT to call Zoom's API. 
+> This is a sample app that uses JWT to call Zoom's API. It also uses the request-promise node module to make http calls with Promises. 
 
 ## Getting Started
 
