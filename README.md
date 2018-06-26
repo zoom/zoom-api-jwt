@@ -28,3 +28,6 @@ You can install using git clone.
 
 > Start the node app.
 ` node.index.js `
+
+### For more Information about Zooms API and JWT
+` https://zoommarketplace.readme.io/v1.1/docs/java-web-token-jwt `
