@@ -6,14 +6,15 @@
 
 ### Install
 
-You can install using git clone.
-
+Clone the repo using git clone.
 ` git clone https://github.com/zoom/zoom-api-jwt.git`
-
-### Quick Start
 
 > Install the dependent node modules.
 ``` npm install ```
+
+### Quick Start
+
+
 
 > In the config.js file, input your client API Key & Secret credentials.
 ``` const config = {
