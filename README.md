@@ -30,4 +30,4 @@ You can install using git clone.
 ` node.index.js `
 
 ### For more Information about Zooms API and JWT
-` https://zoommarketplace.readme.io/v1.1/docs/java-web-token-jwt `
+Documentation is available on the [Zoom REST API docs site](https://zoommarketplace.readme.io/v1.1/docs/java-web-token-jwt)
