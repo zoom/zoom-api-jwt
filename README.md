@@ -6,9 +6,9 @@
 
 ### Install
 
-You can install this package with `npm`
+You can install using git clone
 
-`npm install zoom-api-jwt`
+` git clone https://github.com/zoom/zoom-api-jwt.git`
 
 ### Quick Start
 
