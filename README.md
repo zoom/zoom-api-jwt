@@ -6,13 +6,13 @@
 
 ### Install
 
-You can install using git clone
+You can install using git clone.
 
 ` git clone https://github.com/zoom/zoom-api-jwt.git`
 
 ### Quick Start
 
-> Install the dependent node modules
+> Install the dependent node modules.
 ``` npm install ```
 
 > In the config.js file, input your client API Key & Secret credentials.
@@ -23,8 +23,8 @@ You can install using git clone
 	}
     };
 ```
-> Set your environment varaibles
-``` export NODE_NEV=[environment name] (e.g. export NODE_NEV=production) ```
+> Set your environment varaibles.
+` export NODE_NEV=[environment name] (e.g. export NODE_NEV=production) `
 
-> Start the node app using the below command.
-``` node.index.js ```
+> Start the node app.
+` node.index.js `
