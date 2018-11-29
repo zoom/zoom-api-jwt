@@ -32,3 +32,6 @@ Clone the repo using git clone.
 
 ### For more Information about Zooms API and JWT
 Documentation is available on the [Zoom REST API docs site](https://zoommarketplace.readme.io/v1.1/docs/java-web-token-jwt)
+
+## Support
+For any questions or issues, please visit our new Community Support Forum at https://devforum.zoom.us/
