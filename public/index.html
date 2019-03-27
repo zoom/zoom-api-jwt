@@ -1,0 +1,27 @@
+	<!DOCTYPE HTML>
+	<html>
+	<head>
+	<title> Home Page </title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+	<div class="instruction">
+	<p> Enter a user's email address below. Once you submit it, we will use the jwt generated for your account to authenticate the request and provide you with the information related to the user by making <a href="https://marketplace.zoom.us/docs/api-reference/zoom-api/users/user">this</a> API call.</p>
+	</div>
+	<div class="container">
+	<form action="/userinfo" method="post">
+	<div class="row">
+	    <div class="col-25">
+	    <label for="email">Email address</label>
+	    <input type="email" name ="email">
+		</div>
+	</div>
+	<div class="row">
+	    <input type="submit" value="Submit">
+	</div>
+</form>
+	  </div>
+	
+
+	</body>
+	</html>
