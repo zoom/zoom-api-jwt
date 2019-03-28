@@ -43,7 +43,7 @@ Type `node index.js` in your terminal from within the project directory.
 
 The following code snippet generates the JWT using your Client Credentials:
 ``` 
-	const payload = {
+    const payload = {
     iss: config.APIKey,
     exp: ((new Date()).getTime() + 5000)
 };
@@ -52,7 +52,7 @@ The following code snippet generates the JWT using your Client Credentials:
 After you submit an email address, it will post the entered information and the email will be used to make a **Retrieve User** Zoom API call and you will be redirected to localhost:3000/userinfo page that displays the API response - information related to the user. This is achieved through an HTTP POST method. You can make API calls to other ZOOM endpoints by replacing the uri shown in the snippet below with another uri of your choice. You can find more about ZOOM APIs here. 
 
  ```
- 	var options = {
+    var options = {
     uri: "https://api.zoom.us/v2/users/"+email, 
     qs: {
         status: 'active' 
