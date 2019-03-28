@@ -12,9 +12,10 @@ Clone the repo using git clone.
 > Install the dependent node modules.
 
  The app requires the following modules:
- jsonwebtoken : Provides a way to generate JWT with jwt.sign() method. 
- request-promise: Provides a way to Request call objects with .then() method.
- express: Web application framework for Node.js.
+
+ >jsonwebtoken : Provides a way to generate JWT with jwt.sign() method. 
+ >request-promise: Provides a way to Request call objects with .then() method.
+ >express: Web application framework for Node.js.
 
 To install these dependencies in your project directory, type `npm-install <module-name>` in your terminal.
 
@@ -40,12 +41,12 @@ Type `node index.js` in your terminal from within the project directory.
  When you run the app, you will see a form that asks for an email address. Provide your Zoom email address and you will see your JWT and other information related to your account. 
 
 The following code snippet generates the JWT using your Client Credentials:
-```const payload = {
+``` const payload = {
     iss: config.APIKey,
     exp: ((new Date()).getTime() + 5000)
 };
-const token = jwt.sign(payload, config.APISecret);```
-
+	const token = jwt.sign(payload, config.APISecret);
+```
 After you submit an email address, it will post the entered information and the email will be used to make a **Retrieve User** Zoom API call and you will be redirected to localhost:3000/userinfo page that displays the API response - information related to the user. This is achieved through an HTTP POST method. You can make API calls to other ZOOM endpoints by replacing the uri shown in the snippet below with another uri of your choice. You can find more about ZOOM APIs here. 
 
  ```var options = {
@@ -61,14 +62,15 @@ After you submit an email address, it will post the entered information and the 
         'content-type': 'application/json'
     },
     json: true //Parse the JSON string in the response
-};```
+};
+```
 
- ### For more Information about Zooms API and JWT
+### For more Information about Zooms API and JWT
 
- Documentation for JWT is available [here](https://marketplace.zoom.us/docs/guides/authorization/jwt). You can learn more about Zoom API [here](https://marketplace.zoom.us/docs/api-reference/introduction).
+Documentation for JWT is available [here](https://marketplace.zoom.us/docs/guides/authorization/jwt). You can learn more about Zoom API [here](https://marketplace.zoom.us/docs/api-reference/introduction).
  
- ## Support
- For any questions or issues, please visit our new Community Support Forum at https://devforum.zoom.us/
+## Support
+For any questions or issues, please visit our new Community Support Forum at https://devforum.zoom.us/
 
 
 
