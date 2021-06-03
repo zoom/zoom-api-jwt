@@ -72,11 +72,9 @@ After you submit an email address, it will post the entered information and the 
 
 Documentation for JWT is available [here](https://marketplace.zoom.us/docs/guides/authorization/jwt). You can learn more about Zoom API [here](https://marketplace.zoom.us/docs/api-reference/introduction).
  
-## Support
+## Need help?
 
-For any questions or issues, please visit our new Community Support Forum at https://devforum.zoom.us/
-
-
+If you're looking for help, try [Developer Support](https://devsupport.zoom.us) or our [Developer Forum](https://devforum.zoom.us). Priority support is also available with [Premier Developer Support](https://zoom.us/docs/en-us/developer-support-plans.html) plans.
 
 
 
