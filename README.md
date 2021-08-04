@@ -33,7 +33,7 @@ To generate JWT, you have to provide your API Key and API Secret credentials. Yo
     };
 ```
 > Set your environment varaibles.
-` export NODE_NEV=[environment name] (e.g. export NODE_NEV=production) `
+` export NODE_ENV=[environment name] (e.g. export NODE_ENV=production) `
 
 > Start the node app.
 Type `node index.js` in your terminal from within the project directory.
