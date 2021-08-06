@@ -9,15 +9,13 @@
 Clone the repo using git clone.
 `git clone https://github.com/zoom/zoom-api-jwt.git`
 
-> Install the dependent node modules.
+> Install the dependent node modules by typing `npm-install` in your terminal.
 
  The app requires the following modules:
 
  >jsonwebtoken : Provides a way to generate JWT with jwt.sign() method. 
  >request-promise: Provides a way to Request call objects with .then() method.
  >express: Web application framework for Node.js.
-
-To install these dependencies in your project directory, type `npm-install <module-name>` in your terminal.
 
 ### Quick Start
 
@@ -33,9 +31,6 @@ const config = {
     }
 };
 ```
-
-> Set your environment varaibles.
-` export NODE_NEV=[environment name] (e.g. export NODE_NEV=production) `
 
 > Start the node app.
 Type `node index.js` in your terminal from within the project directory.
@@ -76,7 +71,10 @@ const options = {
 ### For more Information about Zooms API and JWT
 
 Documentation for JWT is available [here](https://marketplace.zoom.us/docs/guides/authorization/jwt). You can learn more about Zoom API [here](https://marketplace.zoom.us/docs/api-reference/introduction).
- 
-## Support
 
-For any questions or issues, please visit our new Community Support Forum at https://devforum.zoom.us/
+## Need help?
+
+If you're looking for help, try [Developer Support](https://devsupport.zoom.us) or our [Developer Forum](https://devforum.zoom.us). Priority support is also available with [Premier Developer Support](https://zoom.us/docs/en-us/developer-support-plans.html) plans.
+
+
+
